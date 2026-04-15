@@ -1,0 +1,165 @@
+# Xcode
+#
+# gitignore contributors: remember to update the values below if you switch to a new IDE / Editor. Thanks for your understanding!
+# https://www.toptal.com/developers/gitignore/api/swift,xcode
+
+### Swift ###
+# Xcode
+#
+# gitignore contributors: remember to update the values below if you switch to a new IDE / Editor. Thanks for your understanding!
+# https://www.toptal.com/developers/gitignore/api/swift
+
+## User settings
+xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace/xcuserdata/
+
+## compatibility with Xcode 8 and later XCSupport files
+*.xccompat.idsvc
+*.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+## compatibility with Xcode 3 and earlier (ignoring all vendor code)
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+!*.xcworkspace/contents.xcworkspacedata
+profile
+*.hmap
+*.ipa
+*.xcarchive
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+
+## Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.resolved
+# *.xcodeproj
+#
+# Xcode automatically generates this directory with a .gitkeep file (so your project doesn't have to) but be aware that not checking it in is sometimes a mistake.
+# !Pods/
+
+## CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# if you do want to ignore the pods directory, uncomment the following lines:
+Pods/
+Podfile.lock
+.pods/
+
+## Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+Carthage/Checkouts
+Carthage/Build/
+
+## Accio dependency management
+Dependencies/
+.accio/
+
+## fastlane
+#
+# It is recommended to not store the screenshots in the git repo.
+# However, in case you do want to add screenshots, ensure they are not of
+# your screenshots that may contain sensitive data like emails as seen in
+# https://snyk.io/blog/remove-sensitive-data-from-git-history-by-using-git-filter-branch/
+#
+# Note: fastlane/screenshots and fastlane/preview.html are deprecated, use fastlane/screenshots.html instead instead.
+fastlane/screenshots
+fastlane/preview.html
+
+## Code Injection
+#
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+
+## Xcode build artifacts
+*.xcarchive
+*.ipa
+*.app
+Build/
+
+## Project build artifacts
+build/
+DerivedData/
+
+## Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+## IDE
+.idea/
+.vscode/
+.gradle/
+*.iml
+*.swiftpm/xcode/
+.xcodeproj/xcshareddata/xcschemes
+
+## Environment
+.env
+.env.*.local
+.env.*
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Test artifacts
+*.xctest
+.testing/
+
+## Package management
+Packages/
+*.resolved
+
+## Documentation generation
+docs/generated/
+
+## Performance profiling
+*.gpx
+
+## Misc
+*.orig
+*.bak
+*.swp
+*.swo
+*~
+.AppleDouble
+.LSOverride
+*.kate-swp
+.~*
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Xcode Playground
+*.playground/xcuserdata/
+*.playground/Contents.swift
+
+# Debugging
+.lldb/
+*.o
+*.a
+*.so
+
+# Local overrides
+local-definitions.xcconfig
+local.xcconfig
+xcconfig.local

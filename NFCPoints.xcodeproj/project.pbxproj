@@ -1,0 +1,64 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		4A0001AA2C000001A000001A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = NFCPointsApp.swift;
+			sourceTree = "<group>";
+		};
+		4A0001AB2C000001A000001B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ContentView.swift;
+			sourceTree = "<group>";
+		};
+		4A0001AC2C000001A000001C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Models.swift;
+			sourceTree = "<group>";
+		};
+		4A0001AD2C000001A000001D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = NFCManager.swift;
+			sourceTree = "<group>";
+		};
+		4A0001AE2C000001A000001E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = DataManager.swift;
+			sourceTree = "<group>";
+		};
+		4A0001AF2C000001A000001F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ScanView.swift;
+			sourceTree = "<group>";
+		};
+		4A0001B02C000001A0000020 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = TeamListView.swift;
+			sourceTree = "<group>";
+		};
+		4A0001B12C000001A0000021 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PointsModalView.swift;
+			sourceTree = "<group>";
+		};
+		4A0001B22C000001A0000022 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = SettingsView.swift;
+			sourceTree = "<group>";
+		};
+	};
+	rootObject = 4A0001AA2C000001A0000000;
+}
