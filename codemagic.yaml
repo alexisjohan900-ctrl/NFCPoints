@@ -9,7 +9,7 @@ workflows:
       - name: Build
         script: |
           xcodebuild build \
-            -project NFCPoints/NFCPoints.xcodeproj \
+            -project NFCPoints.xcodeproj \
             -scheme NFCPoints \
             -configuration Release \
             -derivedDataPath build \
