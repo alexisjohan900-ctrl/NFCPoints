@@ -6,15 +6,10 @@ workflows:
     environment:
       xcode: latest
     scripts:
-      - name: Install dependencies
-        script: |
-          cd NFCPoints
-          pod install || true
-      
       - name: Build
         script: |
           xcodebuild build \
-            -workspace NFCPoints.xcworkspace \
+            -project NFCPoints/NFCPoints.xcodeproj \
             -scheme NFCPoints \
             -configuration Release \
             -derivedDataPath build \
