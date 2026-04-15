@@ -8,12 +8,11 @@ workflows:
     scripts:
       - name: Build
         script: |
-          xcodebuild build \
+          xcodebuild archive \
             -project NFCPoints.xcodeproj \
             -scheme NFCPoints \
-            -configuration Release \
-            -derivedDataPath build \
-            -destination generic/platform=iOS
+            -archivePath build/NFCPoints.xcarchive \
+            -allowProvisioningUpdates
     
     artifacts:
       - build/Build/Products/Release-iphoneos/*.app
