@@ -5,7 +5,6 @@ workflows:
     max_build_duration: 60
     environment:
       xcode: latest
-      ios_locale: en_US
     scripts:
       - name: Install dependencies
         script: |
