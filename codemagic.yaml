@@ -1,0 +1,26 @@
+workflows:
+  ios-workflow:
+    name: iOS Build
+    instance_type: mac_mini_m1
+    max_build_duration: 60
+    environment:
+      xcode: latest
+      ios_locale: en_US
+    scripts:
+      - name: Install dependencies
+        script: |
+          cd NFCPoints
+          pod install || true
+      
+      - name: Build
+        script: |
+          xcodebuild build \
+            -workspace NFCPoints.xcworkspace \
+            -scheme NFCPoints \
+            -configuration Release \
+            -derivedDataPath build \
+            -destination generic/platform=iOS
+    
+    artifacts:
+      - build/Build/Products/Release-iphoneos/*.app
+  
